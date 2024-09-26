@@ -1,0 +1,4 @@
+(library
+ (name tcp_server)
+ (libraries unix threads)
+ (flags :standard -thread))
